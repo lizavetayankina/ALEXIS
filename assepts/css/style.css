@@ -82,7 +82,7 @@ padding-right: 58px;}
 
 
 /*block2*/
-.about {padding: 150px 0;
+#about {padding: 150px 0;
 display: flex;
 max-width: 1170px;
 margin: 0 auto;
@@ -106,11 +106,11 @@ line-height: 27px;}
 
 
 /*block 3 focus*/
-.focus {background: #f7f7f7;
+#focus {background: #f7f7f7;
 padding: 150px 0;}
 
 header {width: 100%;
-text-align: center;}
+text-align: center;}z
 
 .title {padding-bottom: 100px;
 text-align: center;}
@@ -173,7 +173,7 @@ transition: all .3s;}
 
 /*block 5 portfolio*/
 
-.portfolio {padding: 150px 0;
+#portfolio {padding: 150px 0;
 max-width: 1170px;
 margin: auto;}
 
@@ -271,7 +271,7 @@ margin: auto;}
 
 /*block 6 our team*/
 
-.team {padding: 150px 0;
+#team {padding: 150px 0;
 background:  #f7f7f7;}
 
 .ourteam{margin: auto;
@@ -390,7 +390,7 @@ padding-bottom: 30px;}
 
 
 /*work*/
-.work_step {padding: 150px 0;}
+#work_step {padding: 150px 0;}
 
 .step {
 display: flex;
@@ -454,7 +454,7 @@ color: #616161;}
 
 /*price*/
 
-.price {padding: 150px 0;
+#price {padding: 150px 0;
 margin: auto;
 background: #f7f7f7;}
 
@@ -543,7 +543,7 @@ border: 2px solid #b27cf5;}
 
 
 /*Testimonials.*/
-.Testimonials {padding: 150px 0;
+#Testimonials {padding: 150px 0;
 margin: auto;
 background: #3f4049;
 color: #fff;}
