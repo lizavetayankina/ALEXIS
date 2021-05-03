@@ -704,6 +704,10 @@ width: 360px;
 border: none;
 font: 400 16px 'Poppins', sans-serif;}
 
+.error {border-color: rgb(255, 0, 0);
+border: 8px, solid;
+width: 360px;
+}
 
 textarea {resize: none;
 height: 204px;
@@ -763,4 +767,6 @@ transition: all .3s;
 padding-right: 13px;}
 
 .orang a:hover {opacity: .5;}
+
+
 
