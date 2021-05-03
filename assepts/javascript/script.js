@@ -13,9 +13,15 @@ for(let nav of menu) {
 
 const videoElement = document.querySelector('.myPlayer');
 const btnVideo = document.querySelector('.vid_icon');
+const videoTitile = document.querySelector('.video_title');
+const videoUnderTitile = document.querySelector('.under');
 
 btnVideo.addEventListener('click', () => {
-videoElement.play();
+  if (videoElement.play() ) {
+    videoTitile.innerHTML = "";
+    videoUnderTitile.innerHTML = "";
+    btnVideo.innerHTML = '';
+  } 
 })
 
 const btnForm = document.querySelector('.btnSubmit');
