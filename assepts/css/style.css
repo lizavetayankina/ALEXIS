@@ -768,5 +768,38 @@ padding-right: 13px;}
 
 .orang a:hover {opacity: .5;}
 
+@media (min-width:1024px) and (max-width:1366px) {
+       
+.colum {
+    padding-right: 0;
+}
+.colum_tem {
+margin-right: 0px;
+}
 
+.for_example {
+    flex-direction: column;
+    align-items: center;
+}
+.colun {
+flex-direction: column;
+}
+.ourteam {
+flex-direction: column;
+align-items: center;
+}
+
+.focus_under {
+flex-direction: column;
+align-items: center;
+}
+
+.static {
+    flex-direction: column;
+    align-items: center;
+}
+.colum_stat {
+    margin-right: 0;
+}
+}
 
